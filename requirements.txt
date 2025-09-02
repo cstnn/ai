@@ -1,0 +1,6 @@
+qdrant-client
+langchain-community
+langchain
+llama-cpp-python
+chainlit
+langchain_qdrant

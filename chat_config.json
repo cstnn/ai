@@ -1,0 +1,12 @@
+{
+  "CHAT_LOG_DIR": "conversations",
+  "RETRIEVAL_NUM_DOCS": 5,
+  "RETRIEVAL_SIMILARITY_THRESHOLD": 0.5,
+  "N_CTX_PER_SEQ": 32000,
+  "LLM_TEMPERATURE": 0.2,
+  "COLLECTION_NAME": "rag_docs",
+  "CHAT_MODEL_PATH": "models/gemma-3-12b-it-Q5_K_M.gguf",
+  "SYSTEM_INSTRUCTIONS": "# SYSTEM INSTRUCTIONS: You are a helpful AI assistant using RAG with semantic and keyword retrieval. Always answer clearly and concisely, using the provided context when available. If no context is found, answer based on your general knowledge.",
+  "USER_PROFILE": "# USER PROFILE: Profile is OSS EMEA PPS - Standard, Tenant : HPI",
+  "MAX_TOKENS": 512
+}

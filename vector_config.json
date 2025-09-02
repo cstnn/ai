@@ -1,0 +1,11 @@
+{
+  "EMBEDDINGS_LOG_DIR": "embedding_logs",
+  "DOC_DIR": "documents",
+  "CHUNK_SIZE": 1024,
+  "CHUNK_OVERLAP": 100,
+  "EMBED_MODEL_PATH": "models/mxbai-embed-large-v1-f16.gguf",
+  "EMBED_N_CTX": 4096,
+  "DB_PATH": "./qdrant_db",
+  "VECTOR_SIZE": 1024,
+  "COLLECTION_NAME": "rag_docs"
+}
