@@ -44,6 +44,8 @@ COLLECTION_NAME = config["COLLECTION_NAME"]  # Qdrant collection name
 
 
 # --- Logging Setup ---
+os.makedirs('models', exist_ok=True)
+os.makedirs(DOC_DIR, exist_ok=True)
 os.makedirs(EMBEDDINGS_LOG_DIR, exist_ok=True)
 LOG_FILE = os.path.join(EMBEDDINGS_LOG_DIR, datetime.now().strftime("%Y-%m-%d_%H-%M-%S.log"))
 

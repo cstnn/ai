@@ -15,6 +15,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 # --- Load Configs ---
+os.makedirs('models', exist_ok=True)
 VECTOR_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "vector_config.json")
 CHAT_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "chat_config.json")
 

@@ -4,7 +4,7 @@
 
 # --- Imports ---
 import os
-import sys
+# import sys
 import json
 from datetime import datetime
 
@@ -24,6 +24,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain_community.embeddings import LlamaCppEmbeddings
 
 # --- Load Configuration Files ---
+os.makedirs('models', exist_ok=True)
 print("### LOADING CONFIGS ###")
 VECTOR_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "vector_config.json")
 CHAT_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "chat_config.json")
