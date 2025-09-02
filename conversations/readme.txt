@@ -1,0 +1,1 @@
+This folder will host the JSON files captured for each chat session

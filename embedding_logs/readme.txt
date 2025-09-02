@@ -1,0 +1,1 @@
+This folder will host the LOG files for each run of the Embedding pipeline.
