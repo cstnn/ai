@@ -1,4 +1,4 @@
-# AI with Embeddings pipeline and inference + web ui
+# AI with Embeddings pipeline and Inference (CLI / Web UI)
 
 ## Step 0 - Install pyhton
 ```
